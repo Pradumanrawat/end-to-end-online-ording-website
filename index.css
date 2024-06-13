@@ -29,6 +29,7 @@
 
    }
 
+
    .imge {
      height: 80px;
      width: 60%;
@@ -50,17 +51,27 @@
    }
 
    #nav h4 a {
-     font-size: 15px;
+     font-size: 12px;
      text-decoration: none;
      font-weight: 500;
      margin-right: 15px;
      padding-right: 10px;
+     color: black;
+     ;
+   }
+
+   a:hover {
+
+
+
+     color: white;
    }
 
    .content {
      width: 100%;
      height: calc(100% - 80px);
      display: flex;
+
 
    }
 
@@ -76,6 +87,7 @@
      font-size: 45px;
      text-transform: uppercase;
      line-height: 60px;
+
 
    }
 
@@ -139,4 +151,188 @@
      margin-bottom: 10px;
      border-top-left-radius: 0px;
      margin-right: 40px;
+   }
+
+   .items {
+     height: 550px;
+     width: 100%;
+
+     background-color: rgba(255, 0, 0, 0.353);
+
+
+   }
+
+   .items h1 {
+     font-size: 40px;
+     padding: 20px 350px;
+     /* background-color: blue;*/
+     align-items: center;
+     justify-content: center;
+     margin-bottom: 20px;
+
+
+
+   }
+
+   .item {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0px 250px;
+
+
+   }
+
+   .niche {
+     height: 150px;
+     width: 250px;
+     background-color: white;
+     margin: 10px;
+
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+   }
+
+   .niche img {
+     height: 60px;
+     width: 60px;
+     border-radius: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 70px;
+     margin-top: 40px;
+     margin-bottom: 10px;
+
+   }
+
+   .niche h2 {
+     font-size: 3vh;
+     margin-left: 15px;
+     color: orangered;
+     margin-bottom: 20px;
+
+   }
+
+   .niche:hover {
+     border-bottom: 4px solid orangered;
+     transition: all linear 0.3s;
+   }
+
+   .form {
+     width: 100%;
+     height: 500px;
+     display: flex;
+
+     background-color: rgba(255, 0, 0, 0.353);
+   }
+
+
+   .forml {
+     height: 100%;
+     width: 50%;
+     /* background-color: darkmagenta;*/
+   }
+
+   .formr {
+     height: 100%;
+     width: 50%;
+     /* background-color: brown;*/
+
+   }
+
+   .heading {
+     background-color: rgba(255, 0, 0, 0.353);
+   }
+
+   .heading h1 {
+     font-size: 40px;
+     align-items: center;
+
+     display: flex;
+     justify-content: center;
+
+
+   }
+
+   .forml img {
+     height: 70%;
+     width: 100%;
+     padding: 30px 50px;
+     margin-top: 30px;
+     border-radius: 12%;
+
+   }
+
+   .formr p {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 25px;
+     padding: 50px 30px;
+     color: white;
+     margin-top: 10px;
+     line-height: 1.5;
+
+   }
+
+   .btn {
+     font-size: 17px;
+     font-weight: 600;
+     padding: 15px 24px;
+     text-transform: uppercase;
+     border-radius: 50px;
+     margin-left: 200px;
+     background-color: orangered;
+     margin-top: 20px;
+   }
+
+   .btn:hover {
+     background-color: transparent;
+   }
+
+   .formr button a {
+     text-decoration: none;
+     color: white;
+   }
+
+   .setup {
+     height: 700px;
+     width: 100%;
+
+     /*background-color: rgba(255, 0, 0, 0.353);*/
+     background-color: blue;
+
+   }
+
+   .setup h1 {
+
+     font-size: 40px;
+     padding: 0px 100px;
+
+     align-items: center;
+     justify-content: center;
+
+
+   }
+
+   #setup {
+     align-items: center;
+     display: flex;
+
+   }
+
+   .steps {
+     display: flex;
+     flex-wrap: wrap;
+     padding: 0px 150px;
+   }
+
+   .step {
+     height: 200px;
+     width: 300px;
+     background-color: white;
+     margin: 10px;
+     border-radius: 10px;
+
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
    }
